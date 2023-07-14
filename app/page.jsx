@@ -4,10 +4,8 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div className="flex md:flex-row flex-col m-auto gap-4">
-      <section className='w-full flex border-solid border-4 border-primary m-auto h-full rounded-2xl'>
         {/* Headshot */}
-        <Image src="/assets/Woodman Headshot.jpg" width={500} height={1000} alt='Headshot' className='rounded-2xl'></Image>
-      </section>
+        <Image src="/assets/Woodman Headshot.jpg" width={500} height={1000} alt='Headshot' className='w-full flex border-solid border-4 border-primary m-auto h-full rounded-2xl'></Image>
       <section className='w-full m-auto h-full'>
         {/* About Me */}
         <h1 className='text-4xl font-bold text-center my-4'>About Me</h1>
