@@ -1,0 +1,79 @@
+{
+    "navigation": [
+        {
+            "name": "About",
+            "url": "/"
+        },
+        {
+            "name": "Projects",
+            "url": "/projects"
+        },
+        {
+            "name": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "projects": [
+        {
+            "projectId": "1",
+            "projectName": "Tripr",
+            "image": "/assets/tripr Application.png",
+            "altText": "Tripr",
+            "description": "Plan a trip to a location that others have been to, adding destinations to your trip with recommendations from other users.",
+            "technologies": ["HTML", "CSS", "JavaScript", "React", "MongoDB", "Mongoose", "GraphQL", "Bcrypt", "Express", "JSONWebtoken", "Cloudinary", "Apollo", "Heroku"],
+            "githubLink": "https://github.com/Code-Slackers/Code-Slackers",
+            "liveLink": "https://code-slackers.herokuapp.com/"
+
+        },
+        {
+            "projectId": "2",
+            "projectName": "Bikes 4 U",
+            "image": "/assets/Deployed Information.png",
+            "altText": "Bikes 4 U",
+            "description": "An application where you can search local public bike racks for rentals or to return a current bike to an open slot.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Google Maps Web", "GeoLocation", "Bike API"],
+            "githubLink": "https://github.com/Team-A2C2E/Bikes4U",
+            "liveLink": "https://team-a2c2e.github.io/Bikes4U/"
+
+        },
+        {
+            "projectId": "3",
+            "projectName": "C2EZ POS",
+            "image": "/assets/Fully deployed site.png",
+            "altText": "C2EZ POS site",
+            "description": "A fully functional Point of Sale system that used SQL, Express, and Node.js.",
+            "technologies": ["HTML", "CSS", "JavaScript", "MySQL", "Cloudinary", "Bcrypt", "handlebars", "Tailwind CSS", "Express", "Heroku"],
+            "githubLink": "https://github.com/team-C2EZ/c2ez-pos",
+            "liveLink": "https://c2ez-pos.herokuapp.com/login"
+        },
+        {
+            "projectId": "4",
+            "projectName": "Password Generator",
+            "image": "/assets/Password Display.png",
+            "altText": "Password Generator Site",
+            "description": "A password generator that uses JavaScript to create a random password based on user input settings.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "githubLink": "https://github.com/caseywoodman/getapassword",
+            "liveLink": "https://caseywoodman.github.io/getapassword/"
+        },
+        {
+            "projectId": "5",
+            "projectName": "Tech Blog",
+            "image": "/assets/POST PAGE.png",
+            "altText": "Tech Blog Site",
+            "description": "Join your Techy Friends by creating posts, editing posts, and commenting in this application.",
+            "technologies": ["HTML", "CSS", "JavaScript", "MySQL", "Sequelize", "Bcrypt", "handlebars", "Express", "Node"],
+            "githubLink": "https://github.com/caseywoodman/tech_blog"
+        },
+        {
+            "projectId": "6",
+            "projectName": "Programming Quizzer",
+            "image": "/assets/Timer Bar with Question.png",
+            "altText": "Programming Quizzer Site",
+            "description": "Beat the Clock and test your programming knowledge in this quizzer application.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+            "githubLink": "https://github.com/caseywoodman/speedtest",
+            "liveLink": "https://caseywoodman.github.io/speedtest/"
+        }  
+    ]
+}
